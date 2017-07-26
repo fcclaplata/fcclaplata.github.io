@@ -1,25 +1,33 @@
 {
   "name": "fcclaplata",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Free Code Camp - La Plata - Webpage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcclaplata/fcclaplata.github.io.git"
+  },
+  "keywords": [
+    "freeCodeCamp",
+    "laPlata"
+  ],
+  "author": "Matias Pierobon <matias.pierobonm@gmail.com> (https://matias-pierobon.github.io)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fcclaplata/fcclaplata.github.io/issues"
+  },
+  "homepage": "https://github.com/fcclaplata/fcclaplata.github.io#readme",
   "dependencies": {
-    "antd": "^2.12.2",
-    "duration-js": "^4.0.0",
-    "font-awesome": "^4.7.0",
     "next": "beta",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-fontawesome": "^1.6.1",
-    "react-scripts": "1.0.10",
-    "webfontloader": "^1.6.28"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0"
+    "@types/react": "^15.0.39",
+    "concurrently": "^3.5.0",
+    "typescript": "^2.4.2"
   }
 }
