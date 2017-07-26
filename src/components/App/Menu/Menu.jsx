@@ -3,10 +3,10 @@ import {Menu} from 'antd'
 
 const MainMenu = () => (
   <Menu
-    theme="dark"
+    theme="light"
     mode="horizontal"
     style={{
-    lineHeight: '64px',
+    lineHeight: '63px',
     width: 'initial',
     float: 'right'
   }}>

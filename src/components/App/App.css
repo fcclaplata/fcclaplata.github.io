@@ -4,11 +4,12 @@
 .header {
       position: fixed;
       width: 100%;
+      background-color: #fff;
 }
 
-.header .logo{
+.header .logo {
      display: inline-block;
-     color: #fff;
+     color: #232323;
      font-size: 18px;
 }
 

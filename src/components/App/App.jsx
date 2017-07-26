@@ -3,6 +3,7 @@ import {Layout} from 'antd'
 import FontAwesome from 'react-fontawesome'
 
 import Menu from './Menu'
+import HomePage from '../HomePage'
 import './App.css'
 
 const {Header, Content} = Layout;
@@ -16,7 +17,7 @@ const App = () => (
         </div>
         <Menu/>
         </Header>
-    <Content>main content</Content>
+    <Content><HomePage/></Content>
   </Layout>
 )
 

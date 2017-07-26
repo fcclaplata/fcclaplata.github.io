@@ -330,7 +330,7 @@ async-validator@1.x:
   dependencies:
     babel-runtime "6.x"
 
-async@2.1.4:
+async@2.1.4, async@^2.1.2, async@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/async/-/async-2.1.4.tgz#2d2160c7788032e4dd6cbe2502f1f9a2c8f6cde4"
   dependencies:
@@ -339,12 +339,6 @@ async@2.1.4:
 async@^1.4.0, async@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
-
-async@^2.1.2, async@^2.1.4:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.5.0.tgz#843190fd6b7357a0b9e1c956edddd5ec8462b54d"
-  dependencies:
-    lodash "^4.14.0"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -2060,6 +2054,10 @@ duplexer2@^0.1.4:
 duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
+
+duration-js@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/duration-js/-/duration-js-4.0.0.tgz#ab91575a4f1a6b096034685cfc6ea9aca99cd63f"
 
 ecc-jsbn@~0.1.1:
   version "0.1.1"
