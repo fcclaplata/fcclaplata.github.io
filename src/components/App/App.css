@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+@import '~font-awesome/css/font-awesome.css';
+
+.header {
+      position: fixed;
+      width: 100%;
+}
+
+.header .logo{
+     display: inline-block;
+     color: #fff;
+     font-size: 18px;
+}
+
+.header .logo .fa {
+      vertical-align: middle;
+      padding-right: 10px;
+}
+
+.ant-layout-content {
+      margin-top: 64px;
+}
