@@ -77,3 +77,10 @@
     transform: scale(1.2);
     border-color: #019bf0;
 }
+
+@media(max-width:980px){
+   .home-page#technologies{
+        padding: 100px;
+        background-color: #fff;
+    } 
+}

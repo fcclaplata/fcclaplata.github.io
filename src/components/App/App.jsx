@@ -15,7 +15,6 @@ const App = () => (
         <FontAwesome size="2x" name="free-code-camp"/>
         La Plata
       </div>
-      <Menu/>
     </Header>
     <Content><HomePage/></Content>
   </Layout>
