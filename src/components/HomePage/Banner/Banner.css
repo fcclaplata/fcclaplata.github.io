@@ -4,7 +4,8 @@
 .banner.home-banner{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background: linear-gradient(135deg,#35aef8,#7681ff 76%,#7681ff 0);
+    background-attachment: fixed;
     margin-top: -64px;
 }
 

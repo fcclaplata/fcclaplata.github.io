@@ -1,6 +1,6 @@
 import React from 'react'
 import {CountDown} from '..'
-import {Banner} from '.'
+import {Banner, Technologies} from '.'
 
 let Days = ({duration}) => (
   <div>
@@ -16,6 +16,7 @@ Days = CountDown(new Date(2017,8,4))(Days)
 const HomePage = () => (
   <home-page>
     <Banner/>
+    <Technologies/>
   </home-page>
 )
 
