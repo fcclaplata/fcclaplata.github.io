@@ -1,2 +1,2 @@
 export { default } from './App'
-export { Menu } from './Menu'
+export { default as Menu } from './Menu'
