@@ -1,6 +1,6 @@
 import React from 'react'
-import QueueAnim from 'rc-queue-anim';
-import {Row, Col} from 'antd';
+import QueueAnim from 'rc-queue-anim'
+import {Row, Col} from 'antd'
 import {CountDown} from '../..'
 
 import './Banner.css'
@@ -58,7 +58,7 @@ let NextMeetUp = ({duration}) => (
     </div>
   </QueueAnim>
 )
-NextMeetUp = CountDown(new Date(2017, 7, 4, 16))(NextMeetUp)
+NextMeetUp = CountDown(new Date(2017, 6, 29, 16))(NextMeetUp)
 
 export default() => (
   <div className="home-page" id="banner">
