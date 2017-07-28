@@ -21,14 +21,18 @@ const Text = () => (
       <p key="c">A Place to Code</p>
     </QueueAnim>
   </div>
-
 )
 
 let NextMeetUp = ({duration}) => (
   <QueueAnim
     className="point-wrapper"
     delay={500}
-    animConfig={{ opacity: [1, 0], translateX: [0, 50] }}>
+    animConfig={{
+    opacity: [
+      1, 0
+    ],
+    translateX: [0, 50]
+  }}>
     <div key="0" className="banner-text next-meetup">
       <hero>
         <h2>Next MeetUp</h2>
