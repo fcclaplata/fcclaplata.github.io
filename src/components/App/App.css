@@ -18,10 +18,12 @@
      display: inline-block;
      color: #232323;
      font-size: 18px;
+     height: 64px;
 }
 
-.header .logo .fa {
+.header .logo img {
       vertical-align: middle;
+      height: 90%;
       padding-right: 10px;
 }
 
