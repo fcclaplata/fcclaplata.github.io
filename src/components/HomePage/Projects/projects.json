@@ -1,0 +1,20 @@
+[
+    {
+        "title":"Simple Chat",
+        "repo": "https://github.com/fcclaplata/simple-chat",
+        "image": "https://unsplash.it/200/76/?random",
+        "body": ["Simple real time chat application using *firebase*"]
+    },
+    {
+        "title":"Cinema Microservices",
+        "repo": "https://github.com/fcclaplata/cinema-microservices",
+        "image": "https://unsplash.it/200/76/?random",
+        "body": ["Cinema franchise application with a microservice oriented architecture"]
+    },
+    {
+        "title":"Algorithms",
+        "repo": "https://github.com/fcclaplata/algorithms",
+        "image": "https://unsplash.it/200/76/?random",
+        "body": ["Solved algorithms and data structures problems in many languages"]
+    }
+]
