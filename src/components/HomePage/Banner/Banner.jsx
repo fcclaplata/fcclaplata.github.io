@@ -23,7 +23,7 @@ const Text = () => (
   </div>
 )
 
-let NextMeetUp = ({duration}) => (
+let NextMeetUp = ({duration}) => ( duration.seconds() > 0 &&
   <QueueAnim
     className="point-wrapper"
     delay={500}
