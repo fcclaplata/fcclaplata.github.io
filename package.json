@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^2.12.2",
+    "axios": "^0.16.2",
     "devicon": "https://github.com/konpa/devicon.git",
     "duration-js": "^4.0.0",
     "font-awesome": "^4.7.0",
@@ -17,7 +18,7 @@
     "react-scripts": "1.0.10",
     "webfontloader": "^1.6.28"
   },
-  "homepage": "http://fcclaplata.github.io/",
+  "homepage": "https://fcclaplata.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
