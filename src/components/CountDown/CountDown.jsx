@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import Duration from 'duration-js'
 
 const now = () => new Date()
 
-const CountDown = limit => View => class CountDownComponent extends Component {
+const CountDown = limit => View => class CountDownComponent extends PureComponent {
 
   constructor(props) {
     super(props)
