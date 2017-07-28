@@ -31,6 +31,7 @@
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .home-page#projects .project-list .project .info .langs {
