@@ -1,13 +1,48 @@
 import React, { PureComponent } from "react"
 import { Row, Col } from "antd"
+import { query } from '../../../lib/github'
 import Project from "./Project"
 import projects from "./projects.json"
 
+const mapProject = ({ name, url, description }) => ({
+  name, url, description
+})
+
 class ProjectList extends PureComponent {
+
+  constructor(props){
+    super(props)
+    this.state = { projects: null }
+  }
+
+  componentDidMount() {
+    this.getProjects()
+  }
+
+  getProjects = () => (
+    query(`query {
+       organization(login: "fcclaplata") {
+         pinnedRepositories(first:6) { 
+           edges { 
+            node { 
+               name,
+               url,
+               description
+            }
+          }
+        } 
+      }
+    }`)
+      .then( response => response.data )
+      .then( ({ data }) => data.organization.pinnedRepositories.edges )
+      .then( nodes => this.setState({ projects: nodes.map( ({ node }) => mapProject(node)) }) )
+      .catch(e => console.error(e))
+  )
+
   getChildern = () =>
-    projects.map(({ title, body, image, repo }, key) =>
+    this.state.projects && this.state.projects.map(({ name, description, url }, key) =>
       <Col xs={24} sm={12} md={8} lg={6} key={key} >
-        <Project title={title} body={body} image={image} repo={repo} key={key} />
+        <Project title={name} body={description} repo={url} key={key} />
       </Col>
     )
 
