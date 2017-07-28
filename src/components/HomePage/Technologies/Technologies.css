@@ -31,9 +31,6 @@
     width: 90px;
     word-spacing: 1px;
     transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
     border-collapse: collapse;
 }
 
@@ -48,9 +45,6 @@
     transform: scale(1);
     border-radius: 100%;
     transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
 }
 .home-page#technologies content .tech-list  .item:hover > i {
     background-color: #019bf0;
