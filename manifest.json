@@ -1,14 +1,49 @@
 {
-  "short_name": "fccLaPlata",
+  "short_name": "FreeCodeCamp",
   "name": "Free Code Camp - La Plata",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
+      "src": "icon.png",
+      "sizes": "193x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-ldpi.png",
+      "sizes": "38x37",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-mdpi.png",
+      "sizes": "50x49",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-hdpi.png",
+      "sizes": "74x73",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-xhdpi.png",
+      "sizes": "98x97",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-xxhdpi.png",
+      "sizes": "146x145",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-xxxhdpi.png",
+      "sizes": "194x193",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-touch.png",
+      "sizes": "513x511",
       "type": "image/png"
     }
   ],
-  "start_url": "https://fcclaplata.github.io/",
+  "start_url": "/#",
   "display": "standalone",
   "theme_color": "#019bf0",
   "background_color": "#fafafa"
