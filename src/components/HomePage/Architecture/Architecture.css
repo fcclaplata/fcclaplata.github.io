@@ -1,11 +1,26 @@
 .home-page#architecture{
     background-color: #373b3d;
+    background-image: url("./background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: #fff;
     padding: 100px;
 }
 
 .home-page#architecture hero h1{
     color: #fafafa;
+}
+.home-page#architecture content {
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.5);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    -o-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 .home-page#architecture content .arch-list {
