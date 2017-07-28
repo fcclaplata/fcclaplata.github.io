@@ -24,32 +24,37 @@ const Text = () => (
 
 )
 
-let NextMeetUp = ({ duration }) => (
-  <div className="banner-text next-meetup">
-    <hero>
-      <h2>Next MeetUp</h2>
-    </hero>
-    <Row className="count-down" gutter={24}>
-      <Col className="entry" xs={6}>
-        <span>{duration.days()}</span>
-        <div className="subject">Days</div>
-      </Col>
-      <Col className="entry" xs={6}>
-        <span>{duration.hours() - duration.days() * 24}</span>
-        <div className="subject">Hours</div>
-      </Col>
-      <Col className="entry" xs={6}>
-        <span>{duration.minutes() - duration.hours() * 60}</span>
-        <div className="subject">Minutes</div>
-      </Col>
-      <Col className="entry" xs={6}>
-        <span>{duration.seconds() - duration.minutes() * 60}</span>
-        <div className="subject">Seconds</div>
-      </Col>
-    </Row>
-  </div>
+let NextMeetUp = ({duration}) => (
+  <QueueAnim
+    className="point-wrapper"
+    delay={500}
+    animConfig={{ opacity: [1, 0], translateX: [0, 50] }}>
+    <div key="0" className="banner-text next-meetup">
+      <hero>
+        <h2>Next MeetUp</h2>
+      </hero>
+      <Row className="count-down" gutter={24}>
+        <Col className="entry" xs={6}>
+          <span>{duration.days()}</span>
+          <div className="subject">Days</div>
+        </Col>
+        <Col className="entry" xs={6}>
+          <span>{duration.hours() - duration.days() * 24}</span>
+          <div className="subject">Hours</div>
+        </Col>
+        <Col className="entry" xs={6}>
+          <span>{duration.minutes() - duration.hours() * 60}</span>
+          <div className="subject">Minutes</div>
+        </Col>
+        <Col className="entry" xs={6}>
+          <span>{duration.seconds() - duration.minutes() * 60}</span>
+          <div className="subject">Seconds</div>
+        </Col>
+      </Row>
+    </div>
+  </QueueAnim>
 )
-NextMeetUp = CountDown(new Date(2017,7,4,16))(NextMeetUp)
+NextMeetUp = CountDown(new Date(2017, 7, 4, 16))(NextMeetUp)
 
 export default() => (
   <div className="home-page" id="banner">
