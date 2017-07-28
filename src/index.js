@@ -8,7 +8,7 @@ import './index.css';
 
 WebFont.load({
     google: {
-      families: ['Roboto:100,200,300']
+      families: ['Roboto:100,200,300', 'Roboto Mono']
     }
   });
 
