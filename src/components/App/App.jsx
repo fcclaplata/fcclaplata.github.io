@@ -2,7 +2,6 @@ import React from 'react'
 import {Layout} from 'antd'
 import FontAwesome from 'react-fontawesome'
 
-import {Menu} from '.'
 import {HomePage} from '..'
 import './App.css'
 
