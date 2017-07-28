@@ -33,6 +33,18 @@
     margin-bottom: 15px;
 }
 
+.home-page#projects .project-list .project .info .langs {
+    display: block;
+    float: right;
+}
+
+.home-page#projects .project-list .project .info .langs li {
+    line-height: 28px;
+    font-size: 19px;
+    display: inline-block;
+    margin: 5px;
+}
+
 .home-page#projects .project-list .project .info .body{
     margin-bottom: 10px;
 }
