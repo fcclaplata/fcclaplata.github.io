@@ -1,0 +1,47 @@
+[
+  {
+    "icon": "fa fa-share-alt",
+    "title": "Rest",
+    "body": [
+      "Is a way of providing interoperability between computer systems on the Internet. REST - compliant Web services allow requesting systems to access and manipulate textual representations of Web resources using a uniform and predefined set of stateless operations. Other forms of Web service exist, which expose their own arbitrary sets of operations such as WSDL and SOAP.[1] "
+    ]
+  },
+  {
+    "icon": "fa fa-connectdevelop",
+    "title": "GraphQL",
+    "body": [
+      "Is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. "
+    ]
+  },
+  {
+    "icon": "fa fa-mobile",
+    "title": "Progressive Web Apps",
+    "body": [
+      "Is a new way to deliver amazing user experiences on the web, which are:",
+      " - Reliable: Load instantly and never show the downasaur, even in uncertain network conditions.",
+      " - Fast: Respond quickly to user interactions with silky smooth animations and no janky scrolling.",
+      " - Engaging: Feel like a natural app on the device, with an immersive user experience."
+    ]
+  },
+  {
+    "icon": "fa fa-puzzle-piece",
+    "title": "Microservices",
+    "body": [
+      "Is a variant of the service-oriented architecture (SOA) architectural style that structures an application as a collection of loosely coupled services. In a microservices architecture,  services should be fine - grained and the protocols should be lightweight. "
+    ]
+  },
+  {
+    "icon": "fa fa-recycle",
+    "title": "Flux",
+    "body": [
+      "Is the application architecture that Facebook uses for building client-side web applications. It complements React 's composable view components by utilizing a unidirectional data flow. It 's more of a pattern rather than a formal framework, and you can start using Flux immediately without a lot of new code. "
+    ]
+  },
+  {
+    "icon": "fa fa-cogs",
+    "title": "Event-driven SOA",
+    "body": [
+      "Is a form of service-oriented architecture (SOA), combining the intelligence and proactiveness of event - driven architecture with the organizational capabilities found in service offerings "
+    ]
+  }
+]
