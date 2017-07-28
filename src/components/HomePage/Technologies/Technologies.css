@@ -55,3 +55,9 @@
     transform: scale(1.2);
     border-color: #019bf0;
 }
+
+@media(max-width:690px){
+    .home-page#technologies {
+        padding: 300px 50px;
+    }
+}
