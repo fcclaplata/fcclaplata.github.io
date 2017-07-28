@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "devicon-react-original",
+    "title": "React",
+    "url": "https://facebook.github.io/react/"
+  },
+  {
+    "icon": "devicon-codeigniter-plain",
+    "title": "Firebase",
+    "url": "https://firebase.google.com/"
+  },
+  {
+    "icon": "devicon-docker-plain",
+    "title": "Docker",
+    "url": "https://www.docker.com/"
+  },
+  {
+    "icon": "devicon-amazonwebservices-original",
+    "title": "AWS",
+    "url": "https://aws.amazon.com/"
+  },
+  {
+    "icon": "devicon-nginx-original",
+    "title": "Ngnix",
+    "url": "https://www.nginx.com/resources/wiki/"
+  },
+  {
+    "icon": "devicon-sass-original",
+    "title": "Sass",
+    "url": "http://sass-lang.com/"
+  },
+  {
+    "icon": "fa fa-github",
+    "title": "Github",
+    "url": "https://github.com/"
+  },
+  {
+    "icon": "devicon-webpack-plain",
+    "title": "Webpack",
+    "url": "https://webpack.js.org/"
+  },
+  {
+    "icon": "devicon-mongodb-plain",
+    "title": "Mongodb",
+    "url": "https://www.mongodb.com/"
+  },
+  {
+    "icon": "devicon-postgresql-plain",
+    "title": "Postgresql",
+    "url": "https://www.postgresql.org/"
+  },
+  {
+    "icon": "devicon-nodejs-plain",
+    "title": "NodeJS",
+    "url": "https://nodejs.org/"
+  },
+  {
+    "icon": "devicon-d3js-plain",
+    "title": "D3",
+    "url": "https://d3js.org/"
+  }
+]
