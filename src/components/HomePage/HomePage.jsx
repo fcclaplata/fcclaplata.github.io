@@ -1,35 +1,21 @@
 import React from 'react'
-import { Anchor } from 'antd';
-
-import {CountDown} from '..'
-import {Banner, Technologies, Architecture} from '.'
+import {Anchor} from 'antd'
+import {Banner, Technologies, Architecture, Projects} from '.'
 import './HomePage.css'
 
-const { Link } = Anchor;
+const {Link} = Anchor
 
-let Days = ({duration}) => (
-  <div>
-    {duration.weeks()}
-    weeks, {duration.days() - duration.weeks() * 7}
-    Days, {duration.hours() - duration.days() * 24}
-    hours, {duration.minutes() - duration.hours() * 60}
-    minutes, {duration.seconds() - duration.minutes() * 60}
-    seconds
-  </div>
-)
-Days = CountDown(new Date(2017, 8, 4))(Days)
-
-const HomePage = () => (
+export default() => (
   <home-page>
-    <Anchor className="anchor" >
+    <Anchor className="anchor">
       <Link href="#banner" title="Home"/>
       <Link href="#technologies" title="What whe use"/>
-      <Link href="#architecture" title="How we use it"/>
+      <Link href="#architecture" title="How we use them"/>
+      <Link href="#projects" title="Where we use them"/>
     </Anchor>
     <Banner/>
     <Technologies/>
     <Architecture/>
+    <Projects/>
   </home-page>
 )
-
-export default HomePage
