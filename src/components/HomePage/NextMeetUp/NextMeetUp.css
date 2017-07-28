@@ -1,5 +1,5 @@
 .home-page#next-meetup {
-    background-image: url('./background.jpg');
+    /* background-image: url('./background.jpg'); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
