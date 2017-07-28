@@ -36,7 +36,7 @@
     width: 10px;
     z-index: 10;
     top: 50%;
-    margin-top: -24px;
+    margin-top: -28px;
     background: transparent!important;
 }
 
@@ -53,8 +53,7 @@
     background: rgba(54,71,104,.6);
     margin-bottom: 8px;
     cursor: pointer;
-    -webkit-transition: background .45s cubic-bezier(.215,.61,.355,1);
-    transition: background .45s cubic-bezier(.215,.61,.355,1);
+    transition: all .45s cubic-bezier(.215,.61,.355,1);
 }
 
 .anchor .ant-anchor-link.ant-anchor-link-active a{
