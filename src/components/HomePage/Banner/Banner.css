@@ -1,8 +1,4 @@
-#banner{
-}
-
 .home-page#banner{
-    height: 100vh;
     width: 100%;
     background-color: #323232;
     background-image: url("./background.png");
@@ -18,7 +14,6 @@
     display: inline-block;
     color: #fff;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.7), 0 0 5px rgba(0, 0, 0, 0.6);
-    margin-top: 20px;
 }
 
 .home-page#banner .banner-text.next-meetup {
@@ -55,6 +50,6 @@
 }
 @media(max-width:690px){
     .home-page#banner {
-        padding: 300px 25px;
+        padding: 100px 25px;
     }
 }
