@@ -9,12 +9,12 @@ const {Header, Content} = Layout;
 
 const App = () => (
   <Layout>
-    <Header className="header">
+    {/* <Header className="header">
       <div className="logo">
         <img src={icon} alt="Free Code Camp - La Plata"/>
         La Plata
       </div>
-    </Header>
+    </Header> */}
     <Content><HomePage/></Content>
   </Layout>
 )
